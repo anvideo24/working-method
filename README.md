@@ -4,6 +4,7 @@
 
 | 파일 | 무엇 | 언제 고치나 |
 |---|---|---|
+| `AGENTS.md` | 일을 시작하고 끝내는 법. 읽는 순서와 되돌려 적는 자리 | 순서나 자리가 바뀔 때 |
 | `RULES.md` | 어디에나 해당하는 제품 규칙. 돈·승인·AI 권한·이력·비밀 | 제품이 지켜야 할 것이 바뀔 때 |
 | `HOW.md` | 일하는 방식. 일을 받았을 때, 판단할 때, 끝낼 때 | 일하는 방식이 바뀔 때 |
 | `LESSONS.md` | 배운 것. 압축해서 적는다. 일기처럼 쌓지 않는다 | 같은 실수를 두 번째 겪지 않게 하려 할 때 |
@@ -21,20 +22,12 @@
 - Windows: `C:\dev\working-method`
 - Mac: 제품 저장소와 같은 부모 폴더의 `working-method`
 
-## 도구 부트 문구
+## 도구에 물리는 법
 
-Cursor·ChatGPT·Claude에 같은 것을 넣는다. 본문을 도구마다 복사해 키우지 않는다.
+- **Cursor·Claude Code**: 제품 저장소의 `AGENTS.md`가 이 저장소를 가리키면 된다. 그 파일이 여기 `AGENTS.md`로 이어진다.
+- **ChatGPT처럼 저장소를 못 읽는 도구**: [AGENTS.md](AGENTS.md) 4절의 부트 문구를 지침 칸에 붙인다.
 
-```
-일하는 방식의 정본은 GitHub anvideo24/working-method 다.
-시작 때 HOW.md, LESSONS.md, RULES.md를 읽고, 그다음 이 프로젝트 RULES.md를 읽는다.
-공용 원문을 프로젝트에 붙여넣고 고치지 않는다. 그 제품만의 차이는 그 프로젝트 RULES.md에 적는다.
-오케이 나면 처음 안과 최종안을 비교한다. 공용에 해당하면 working-method를, 그 제품만이면 그 프로젝트 RULES를 고친다. 생각·실수는 HOW.md 또는 LESSONS.md다.
-실데이터·비밀·고객사명·이메일은 넣지 않는다.
-```
-
-- Cursor·Claude Code: 제품 저장소의 `AGENTS.md`가 이 문구를 담고 있으면 된다.
-- ChatGPT: 프로젝트 지침 칸에 위 문구를 붙인다. git을 못 고치는 도구는 고칠 문장만 남기고, Cursor나 GitHub에서 푸시한다.
+부트 문구의 원본은 `AGENTS.md` 한 곳뿐이다. 여기에 옮겨 적지 않는다 — 두 곳에 적히면 어긋난다.
 
 ## 넣지 않는 것
 
